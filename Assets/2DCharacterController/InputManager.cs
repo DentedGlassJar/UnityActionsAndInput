@@ -24,12 +24,6 @@ public class InputManager : MonoBehaviour, InputMap.IPlayerActions
         inputMap.Player.SetCallbacks(this);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnMove(InputAction.CallbackContext context)
     {
 
